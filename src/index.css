@@ -6,10 +6,7 @@
 }
 @media (max-width: 775px){
   .header{
-    height: auto;
-    width: 100%;
     padding: 2% 0 2% 2%;
-    background-color: yellow;
   }
   .header .header_logo{
     height: auto;
