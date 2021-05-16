@@ -1,0 +1,44 @@
+.parent{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 7px 5px;
+}
+@media (max-width: 775px){
+    .parent{
+        display: flex;
+        flex-direction: column;
+    }
+    .parent .main_card{
+        height: auto;
+        width: 75%;
+        margin: auto;
+        margin-top: 6%;
+
+    }
+}
+.main_card{
+    height: auto;
+    width: 92%;
+    margin: 3% 0 0 4%;
+    background-color: rgba(205, 255, 247, 0.897);
+}
+.img_card{
+    height: auto;
+    width: 100%;
+}
+.img_card img{ 
+    height: auto;
+    width: 100%;
+}
+.card_name{
+    height: auto;
+    width: auto;
+    padding: 0 0 2% 2%;
+}
+.description{
+    height: auto;
+    width: auto;
+    padding: 0 0 5% 2%;
+}

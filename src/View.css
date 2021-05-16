@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    margin-top: 2%;
+}
+.card1{
+    height: auto;
+    width: 100%;
+    display: flex;
+    background-color: blueviolet;
+}
+.card1 img{
+    height: auto;
+    width: 100%;
+}
+.card2{
+    height: auto;
+    width: 100%;
+    display: flex;
+    background-color: blueviolet;
+}
+.card2 img{
+    height: auto;
+    width: 100%;
+}
+.card3{
+    height: auto;
+    width: 100%;
+    display: flex;
+    background-color: blueviolet;
+}
+.card3 img{
+    height: auto;
+    width: 50%;
+}
