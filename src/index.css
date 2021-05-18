@@ -22,22 +22,24 @@
   }
 }
 .header{
-  height: auto;
+  height: 80px;
   width: 100%;
+  position: fixed;
   display: flex;
+  margin-bottom: 50%;
   background-color: tomato;
   justify-content: space-between;
 }
 .header_logo{
   height: auto;
-  width: 10%;
+  width: 6%;
   display: flex;
   cursor: pointer;
   flex-direction: column;
   border-radius: 50%;
-  margin-left: 0.3%;
+  margin: 0.5% 0 0.5% 0.5%;
   padding: 0 0 2% 0;
-  background-color: powderblue;
+  background-color: white;
 }
 .header_logo img{
   height: auto;
@@ -62,6 +64,10 @@
 }
 .header_menu a{
   font-size: 1.8rem;
-  color: black;
+  color: white;
   font-family: "Flamenco";
+}
+a{
+  text-decoration: none;
+  color: black;
 }

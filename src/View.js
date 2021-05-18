@@ -1,22 +1,16 @@
 import React from "react";
-import card1 from "./card1.jpg";
-import card2 from "./card2.jpg";
-import card3 from "./card3.jpg";
 import './View.css';
+import A from "./card1.jpg";
 
-const View = () =>{
-    return(
+const View = () => {
+    return (
         <>
-        <div className="container">
-            <div className="card1">
-            <img src={card1} />
+        <div className="parent_view">
+            <div className="main_view1">
+                <img src={A} />
             </div>
-            <div className="card2">
-            <img src={card2} />
-            </div>
-            <div className="card3">
-            <img src={card3} />
-            </div>
+            <div className="main_view2"></div>
+            <div className="main_view3"></div>
         </div>
         </>
     )
