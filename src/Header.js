@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import A from "./A.png"
 
 const Header = () => {
@@ -14,6 +15,12 @@ const Header = () => {
             <div className="header_menu">
                 <Link to="/menu"><span>MENU</span></Link>
             </div>
+            <div className="icons">
+                    <Link><ShoppingCartIcon style={{
+                        fontSize: 45,
+                        color: "grey",
+                    }} /></Link>
+                </div>
         </div>
     )
 }

@@ -20,14 +20,15 @@
     font-size: 1.5rem;
     margin-right: 25%;
   }
+  .parent_view .icons{
+    right: 10%;
+  }
 }
 .header{
   height: 80px;
   width: 100%;
-  position: fixed;
   display: flex;
-  margin-bottom: 50%;
-  background-color: tomato;
+  background-color: black;
   justify-content: space-between;
 }
 .header_logo{
@@ -48,6 +49,7 @@
 .header_title{
   display: flex;
   align-items: center;
+  color: white;
 }
 .header_title h1{
   text-align: center;
@@ -70,4 +72,16 @@
 a{
   text-decoration: none;
   color: black;
+}
+
+.icons{
+  height: auto;
+  width: auto;
+  position: absolute;
+  border-radius: 50%;
+  top: 85%;
+  right: 12.5%;
+}
+.icons a{
+  position: fixed;
 }

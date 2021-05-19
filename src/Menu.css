@@ -3,7 +3,8 @@
     width: 100%;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-gap: 7px 5px;
+    grid-gap: 14px 5px;
+    background-color: black;
 }
 @media (max-width: 775px){
     .parent{

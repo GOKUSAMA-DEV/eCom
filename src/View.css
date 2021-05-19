@@ -1,16 +1,21 @@
 .parent_view{
     height: auto;
     width: 100%;
-    background-color: blueviolet;
 }
-.main_view1{
-    height: auto;
-    width: 100%;
+.main_view1, .main_view2, .main_view3, .main_view4{
+    height: 400px;
+    width: 95%;
+    margin: auto;
     display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(246, 244, 214, 0.966);
+    line-height: 35px;
     justify-content: center;
 }
-img{
+/* img{
     height: 700px;
     width: 95%;
     object-fit: cover;
-}
+} */
+

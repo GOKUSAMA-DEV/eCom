@@ -1,6 +1,5 @@
 import React from "react";
 import './Footer.css';
-import { Link } from "react-router-dom";
 import TwitterIcon from '@material-ui/icons/Twitter';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import YouTubeIcon from '@material-ui/icons/YouTube';
